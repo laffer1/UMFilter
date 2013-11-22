@@ -1,0 +1,8 @@
+;UMFilter.def  : Declares the module parameters for the DLL.
+LIBRARY	     "UMFilter"
+
+EXPORTS
+	HttpFilterProc	@1
+	GetFilterVersion @2
+	HttpExtensionProc @3
+	GetExtensionVersion @4
